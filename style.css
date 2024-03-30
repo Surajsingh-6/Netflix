@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.page1 {
+    background: fixed rgba(0, 0, 0, 0.5) url('/assests/bg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    height: 90vh;
+    width: 100vw;
+}
+
+nav {
+    
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    height: 1.5rem;
+    margin-left: 01rem;
+    width: 5.5rem;
+}
+#eng {
+    background: black;
+    color: white;
+    height: 25px;
+    margin-right: 0.8rem;
+    border: 0.1px solid rgb(178, 178, 178);
+    width: 6rem;
+    text-align: center;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#sign{
+    background: red;
+    margin-right: 0.8rem ;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 3.5rem;
+    height: 25px;
+    border: 0;
+    color: white;
+    font-size: 12px;
+    font-weight: 550;
+}
+main{
+    height: 82vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;  
+      
+}
+
+.page1 h6{
+    color:rgb(184, 184, 184);
+    margin: 0.5rem;
+}
+
+.page1 input{
+    width: min(80vh,90%);
+    margin:0.5rem auto;
+    background-color: black;
+    border:0.1px solid grey;
+    height: 2rem;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: white;
+}
+
+.page1 input::placeholder{
+    padding: 1rem;
+    color:rgb(192, 192, 192);
+}
+#get{
+    background-color: red;
+    color :white;
+    border: 0;
+    height: 2rem;
+    width: min(40vw,300px);
+    margin: 0 auto;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-weight: 300;
+    font-size:larger;
+}
+input:focus, select:focus {
+    outline: none;
+}
