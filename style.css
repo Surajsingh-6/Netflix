@@ -164,3 +164,32 @@ h6{
     width: 58vw;
     margin-top: -17rem;
 }
+#child{
+    aspect-ratio: 16 / 9; /* for a widescreen aspect ratio */
+    width: 90vw;
+    height: 50vh; /* or any specific width */
+    height: auto; /* height will be calculated based on the width to maintain aspect ratio */
+    object-fit: cover; /* this will crop and cover the area without distorting the image */
+}
+footer{
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:2rem 0;
+}
+.faq{
+    background-color: #353535;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    width: 90vw;
+    align-items: center;
+    margin:0.5rem 0;
+    
+}
+.faq div{
+
+    margin: 0 2rem;
+}
